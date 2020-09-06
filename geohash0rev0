@@ -1,0 +1,28 @@
+package Geohash0;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double longitude1 = 120;
+		
+		int bit1 = 0;
+		if (longitude1 < 0)
+			bit1 = 0;
+		else bit1 = 1;
+		System.out.println(bit1);	
+
+		int bit2 = 0;
+		if (longitude1 < 90)
+			bit2 = 0;
+		else bit2 = 1;
+		System.out.println(bit2);	
+
+		int bit3 = 0;
+		if (longitude1 < 135)
+			bit3 = 0;
+		else bit3 = 1;
+		System.out.println(bit3);
+
+	}
+}
